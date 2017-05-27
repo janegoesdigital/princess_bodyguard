@@ -1,0 +1,27 @@
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 90%;
+}
+
+
+p {
+	background-color: pink;
+	display: inline;
+}
+
+
+
+ul {
+	list-style-type: none;
+	display: inline
+}
+
+li {
+	display: inline;
+	float: right;
+}
+
+	.navbar {
+		background-color: green;
+	}
