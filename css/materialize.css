@@ -8,6 +8,12 @@
 	padding: 5%;
 }
 
+
+.jane_list{
+	/*background-color: pink;*/
+	list-style-type: circle;
+}
+
 .jane {
 	background-color: #fce4ec ;
 	margin-right: 1%;
@@ -2571,7 +2577,7 @@ html {
 
 ul:not(.browser-default) {
   padding-left: 0;
-  list-style-type: none;
+  /*list-style-type: none;*/
 }
 
 ul:not(.browser-default) li {
