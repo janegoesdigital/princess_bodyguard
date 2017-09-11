@@ -35,6 +35,14 @@
 	/*margin-bottom: 100px;*/
 }
 
+.centre_video {
+    max-width: 600px; /* you have to have a size or this method doesn't work */
+    max-height: 315px;
+    margin-right: auto;
+    margin-left: auto;
+		padding: 10%;
+}
+
 .materialize-red {
   background-color: #e51c23 !important;
 }
@@ -3137,6 +3145,7 @@ td, th {
 
 .video-container {
   position: relative;
+	/*padding-top: 20%;*/
   padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
