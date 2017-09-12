@@ -4,6 +4,8 @@
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
 
+
+
 .grid {
 	padding: 5%;
 }
@@ -27,13 +29,57 @@
 }
 
 
-#princess{
+.princess{
 	color: white;
-	position: fixed;
+	/*position: fixed;*/
 	font-family: "Sacremento", cursive;
-	/*padding: 0px;*/
+	font-size: 1.5em;
+	padding: 0px;
 	/*margin-bottom: 100px;*/
 }
+
+.first-para {
+	padding-top: 5em;
+}
+
+
+nav {
+	position:fixed;
+	padding-bottom: 1em;
+	/*display:inline-block;*/
+}
+.topnav {
+    background-color: #5e2269;
+    overflow: hidden;
+		width: auto;
+		padding-bottom: 1em;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding-right: 1.5em;
+		padding-left:1em;
+    text-decoration: none;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: ##f3c7ff;
+    color: #f3c7ff;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+/*.topnav .icon {
+    display: none;
+}*/
+
+
+
+
+
 
 .materialize-red {
   background-color: #e51c23 !important;
