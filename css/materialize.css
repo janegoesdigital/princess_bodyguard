@@ -39,6 +39,7 @@
 }
 
 .first-para {
+	/*margin-top: 75px;*/
 	padding-top: 5em;
 }
 
@@ -46,6 +47,7 @@
 nav {
 	position:fixed;
 	padding-bottom: 1em;
+	margin-bottom: 10em;
 	/*display:inline-block;*/
 }
 .topnav {
@@ -71,10 +73,6 @@ nav {
     color: #f3c7ff;
 }
 
-/* Hide the link that should open and close the topnav on small screens */
-/*.topnav .icon {
-    display: none;
-}*/
 
 
 
